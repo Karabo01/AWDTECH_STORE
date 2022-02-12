@@ -11,7 +11,7 @@
             <div class="navbar">
                 <img src="Images/LOGO.jpg" class="logo">
                 <nav>
-                    <ul id="menulist">
+                    <ul id="menulist" class="menuList">
                        <li><a href="index.html">Home</a></li>
                        <li><a href="Products.html">Products</a></li>
                        <li><a href="Shopping Cart.html">Shopping Cart</a></li>
@@ -26,11 +26,14 @@
                <form  class="input-group">
                    <input id="email" type="email" class="input-box" placeholder="User email" required>
                    <input id="password" type="password" class="input-box" placeholder="User Password" required>
+                   <input id="confirm_password" type="password" class="input-box" placeholder="Confirm Password" required>
                     <p class="check"><span ><input type="checkbox"></span>I agree to the terms of services</p>
                     <button type="button" class="regbtn" onclick="userReg()">Register
                         <img src="Images/arrow.png"></button>
                    <hr>
                    <p class="or">OR</p>
+                   <input id="email" type="email" class="input-box" placeholder="User email" required>
+                   <input id="password" type="password" class="input-box" placeholder="User Password" required>
                    <button type="button" class="loginbtn" onclick="userLogin()">Login
                     <img src="Images/arrow.png"></button>
                </form> 

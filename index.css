@@ -216,8 +216,9 @@ button:hover{
     margin: 8% auto 0;
     background: linear-gradient(to right,#9acbf3, #3bf8f8);;
     padding: 20px;
-    height: 340px;
+    height: 450px;
     border-radius: 20px;
+    
 }
 .input-box{
     border-radius: 20px;
@@ -243,6 +244,10 @@ button:hover{
     left: 150px;
 }
 
+.regbtn{
+    position: relative;
+    left: 150px;
+}
 
 
 
@@ -260,7 +265,7 @@ button:hover{
         position: absolute;
         top: 120px;
         right: 0;
-        z-index: 0;
+        z-index: 3;
         justify-content: space-between;
     }
     
@@ -269,7 +274,7 @@ button:hover{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    nav ul li a{
+   nav ul li a{
        color: #ffff; 
     }
 
@@ -285,7 +290,7 @@ button:hover{
 
     #menulist{
         overflow: hidden;
-      
+        transition: 0.5s ;
     }
 
     .row{
@@ -343,7 +348,7 @@ button:hover{
         
         padding-top: 240px;
         width: 280px;
-        height: 260px;
+        height: 450px;
         
     }
     .input-box{
@@ -359,6 +364,10 @@ button:hover{
     .or{
        
         left: 120px;
+    }
+
+    .regbtn{
+        left: 70px;
     }
     .loginbtn{
         
