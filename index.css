@@ -220,6 +220,10 @@ button:hover{
     border-radius: 20px;
     
 }
+
+.form h1{
+    text-align: center;
+}
 .input-box{
     border-radius: 20px;
     padding:10px;
